@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+    .confirmation-message {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+        z-index: 1000;
+    }
+    #THANK{
+        top: 40%;
+        left: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        color: crimson;
+
+    }
+    #bookingConfirmation{
+        color: #ff5733; /* Set your desired text color */
+        animation: colorChange 4s alternate infinite;
+    }
+
+    @keyframes colorChange {
+        from {
+            color: #ff5733; /* Start color */
+        }
+        to {
+            color: #33cc33; /* End color */
+        }
+    }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="" alt="">
+        </div>
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">Profile</a></li>
+            <li class="item"><a href="#">BookCart</a></li>
+            <li class="item"><a href="#">Help</a></li>
+            <li class="item"><a href="#">SignUp</a></li>
+            
+        </ul>
+
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to LMS </h1>
+        <p>Efficient Organization And Acess: The Key To Library Management</p>
+        </section> 
+
+<div class="kk">
+    
+    <div class="movies">
+        <div class="images">
+            <img src="Half.jpeg" alt="">
+        </div>
+        <div class="title">
+            The Half Moon
+        </div>
+        <div class="btn">
+            <button>Add To Cart</button>
+
+        </div>
+    </div>
+
+    <div class="movies">
+        <div class="images">
+            <img src="Web.jpeg" alt="">
+        </div>
+        <div class="title">
+            Web Design
+        </div>
+        <div class="btn">
+            <button>Add TO Cart</button>
+
+        </div>
+    </div>
+    <div class="movies">
+        <div class="images">
+            <img src="Ds.jpeg" alt="">
+        </div>
+        <div class="title">
+            Ds and Algorithms
+        </div>
+        <div class="btn">
+            <button>Add To Cart</button>
+
+        </div>
+    </div>
+    <div class="movies">
+        <div class="images">
+            <img src="Yellow.jpeg" alt="">
+        </div>
+        <div class="title">
+           YellowFace
+        </div>
+        <div class="btn">
+            <button>Add To Cart</button>
+
+        </div>
+    </div>
+    <div class="movies">
+        <div class="images">
+            <img src="python.jpeg" alt="">
+        </div>
+        <div class="title">
+            Python
+        </div>
+        <div class="btn">
+            <button>Add TO Cart</button>
+
+        </div>
+    </div>
+    <div class="movies">
+        <div class="images">
+            <img src="Harry.jpeg" alt="">
+        </div>
+        <div class="title">
+            Harry Potter
+        </div>
+        <div class="btn">
+            <button>Add To Cart</button>
+
+        </div>
+    </div>
+    <div class="movies">
+        <div class="images">
+            <img src="kaboom.jpeg" alt="">
+        </div>
+        <div class="title">
+            Kaboom Kid
+        </div>
+        <div class="btn">
+            <button>Add To Cart</button>
+
+        </div>
+    </div>
+    <div class="movies">
+        <div class="images">
+            <img src="op.jpeg" alt="">
+        </div>
+        <div class="title">
+    OnePiece
+        </div>
+        <div class="btn">
+            <button>Add To Cart</button>
+
+        </div>
+    </div>
+    <div class="movies">
+        <div class="images">
+            <img src="spider.jpeg" alt="">
+        </div>
+        <div class="title">
+           Spider Man
+        </div>
+        <div class="btn">
+            <button>Add To Cart</button>
+
+        </div>
+    </div>
+    <div class="movies">
+        <div class="images">
+            <img src="Sherlock.jpeg" alt="">
+        </div>
+        <div class="title">
+           Sherlock Holmes
+        </div>
+        <div class="btn">
+            <button>Add To Cart</button>
+
+        </div>
+    </div>
+    <div class="movies">
+        <div class="images">
+            <img src="ghost .jpeg" alt="">
+        </div>
+        <div class="title">
+           Ghost Rider
+        </div>
+        <div class="btn">
+            <button>Add To Cart</button>
+
+        </div>
+    </div>
+    <div class="movies">
+        <div class="images">
+            <img src="Bat.jpeg" alt="">
+        </div>
+        <div class="title">
+          BatMan
+        </div>
+        <div class="btn">
+            <button>Add To Cart</button>
+
+        </div>
+    </div>
+    <div class="movies">
+        <div class="images">
+            <img src="Sql.jpeg" alt="">
+        </div>
+        <div class="title">
+           SQL
+        </div>
+        <div class="btn">
+            <button>Add To Cart</button>
+
+        </div>
+    </div>
+    <div class="movies">
+        <div class="images">
+            <img src="Mad.jpeg" alt="">
+        </div>
+        <div class="title">
+           Mobile Development
+        </div>
+        <div class="btn">
+            <button>Add To Cart</button>
+
+        </div>
+    </div>
+    <div class="movies">
+        <div class="images">
+            <img src="think.jpeg" alt="">
+        </div>
+        <div class="title">
+           Think and Grow
+        </div>
+        <div class="btn">
+            <button class="btn">Add To Cart</button>
+
+        </div>
+    </div>
+
+</div>
+
+<div class="contactus">
+    
+</div>
+
+<footer id="hloo">
+    <h4>OUR SOCIAL MEDIA HANDLES</h4>
+    <a href="https://www.instagram.com/" target="_blank"><img src="insta1.png" alt="InstaGram"></a>
+    <a href="https://www.facebook.com/" target="_blank"><img src="face.png" alt="FaceBook"></a>
+    <a href="https://in.linkedin.com/" target="_blank"><img src="linked.png" alt="LinkedIn"></a>
+    <a href="https://www.youtube.com/" target="_blank"><img src="you.png" alt="YouTube"></a>
+    <a href="https://twitter.com/" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+    <a href="https://telegram.org/" target="_blank"><img src="telegram1.png" alt="Telegram"></a>
+
+
+</footer>
+
+<script>
+    $(document).ready(function() {
+        $(".btn button").click(function() {
+            var movieTitle = $(this).closest(".movies").find(".title").text();
+            var movieContainer = $(this).closest(".movies");
+        
+        // Find the title and image elements within the movie container
+        var movieTitle = movieContainer.find(".title").text();
+        var movieImage = movieContainer.find(".images img").attr("src");
+
+        // Modify the movieElement selector to get the correct element
+        var movieElement = movieContainer.find(".title");
+
+        // Highlight the movie title temporarily
+        movieElement.css("color", "red");
+            
+            
+            
+            // Show booking confirmation message with movie title
+            $("#bookingConfirmation h3").text("You Have Added The'"+movieTitle +"'To The Cart.");
+            $("#bookingConfirmation").fadeIn(100);
+            $(".ThankYou").fadeIn(100);
+           
+    
+            // Hide main content
+            // $(".kk").fadeOut(1000);
+            // $("#home").fadeOut(1000);
+            // $("#hloo").fadeOut(1000);
+            // $("#navbar").fadeOut(1000);
+    
+            // After 3 seconds, fade out the booking confirmation message and show main content
+            setTimeout(function() {
+                $("#bookingConfirmation").fadeOut(function() {
+                    // Show main content again
+                    // $(".kk").fadeIn(1000);
+                    // $("#home").fadeIn(1000);
+                    // $("#hloo").fadeIn(1000);
+                    // $("#navbar").fadeIn(1000);
+                    
+                });
+            }, 4000);
+        });
+    });
+    </script>
+
+    <div id="THANK">
+        <h1>Thank You</h1>
+    </div>
+     <div id="bookingConfirmation" class="confirmation-message">
+        <h3>Your Book Was Added To Cart</h3>
+    </div>
+
+    
+
+
+
+
+    
+</body>
+</html>

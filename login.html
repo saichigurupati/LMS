@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Link to Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .container-fluid{
+      width: 100%;
+      height: 570px;
+    }
+    .container-fluid form{
+      padding-top: 24px;
+      margin-bottom: 500px;
+      margin-left:-70px;
+      margin-top: 39px;
+    }
+    
+    form{
+      border: 2px solid aquamarine;
+      border-radius: 2px;
+      width: 600px;
+      height: 600px;
+      
+      
+    }
+    .hlo{
+      padding-left: 12px;
+    }
+    body{
+      background-color: black;
+      color: white;
+    }
+    
+    .container-fluid img{
+      
+      width: 400px;
+      height: 400px;
+      padding-top: 70px;
+      padding-left: 50px;
+      margin-top: 110px;
+      margin-left: 20px;
+    }
+    table{
+      margin: -368px -32px;
+    }
+    
+    
+    
+  </style>
+  <title>LMS</title>
+</head>
+<body>
+  <div class="alert alert-info alert-dismissible fade show" role="alert">
+    <strong>Hello All</strong> Please Fill All The Details Above If Not You Will Not Be Part Of LMS.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6">
+      
+      <img src="lms.jpg" class="rounded" alt="...">
+    </div>
+    <div class="col-md-6">
+      
+        <form class="row g-3 needs-validation" action="home.html">
+            <div class="col-md-4">
+              <label for="validationCustom01" class="form-label">First name</label>
+              <input type="text" class="form-control" id="validationCustom01"  required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom02" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="validationCustom02"  required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustomUsername" class="form-label">Username</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                  Please choose a username.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label">Email</label>
+              <input type="email" class="form-control" id="validationCustom03" required>
+              <div class="invalid-feedback">
+                Please provide a valid city.
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom04" class="form-label">Phone Number</label>
+              <input type="number" class="form-control" id="validationCustom04" required>
+              <div class="invalid-feedback">
+                Please provide a valid city.
+              </div>
+            </div>
+           
+            <div class="col-md-6">
+              <label for="validationCustom05" class="form-label">Password</label>
+              <input type="password" class="form-control" id="validationCustom05" required>
+              <div class="invalid-feedback">
+                Please provide a valid zip.
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom06" class="form-label">RePassword</label>
+              <input type="password" class="form-control" id="validationCustom06" required>
+              <div class="invalid-feedback">
+                Please provide a valid zip.
+              </div>
+            </div><br><br><br>
+            <br>
+            <label class="hlo">Gender:&nbsp&nbsp</label>&nbsp
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Male
+              </label>
+            </div>
+      &nbsp
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Female
+              </label>
+            </div>
+            
+           
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Agree to terms and conditions
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            <div class="mb-4">
+              &nbsp<textarea class="form-control" id="exampleFormControlTextarea1" rows="4" disabled>Submit All Your Details And have Fun Using LMS</textarea>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" id="hi" type="submit">Submit form</button>
+            </div>
+          </form>
+          
+        </div>
+        
+  <div class="container">
+          <div class="row justify-content-center">
+        <div class="col-md-5">
+        <table class="table table-dark table-hover">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Books</th>
+              <th scope="col">Authors</th>
+              
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Letting Go</td>
+              <td>Philip Roth</td>
+              
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Fear Of Flying</td>
+              <td>Eric Jong</td>
+              
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td >When Breath Becomes Air</td>
+              <td>Paul Kalanithi </td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td >The Adventures Of Tom Sawyer</td>
+              <td>Mark Twain </td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td >Little Women</td>
+              <td>Louisa May Alcott</td>
+            </tr>
+            
+          </tbody>
+        </table>
+    </div>
+          </div>
+        
+  </div>
+      </div>
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>

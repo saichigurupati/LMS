@@ -1,0 +1,190 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Css variables */
+:root{
+    --navbar-height:59px;
+}
+
+/* Navigation Bar */
+
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+/* Logo and image */
+#logo{
+    
+    margin: 10px 34px;
+
+}
+#logo img{
+    height: 59px;
+    margin: 3px 5px;
+}
+
+
+
+/* List Styling */
+#navbar{
+    position: relative;
+    
+}
+
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: "";
+    z-index: -1;
+    opacity: 0.4;
+}
+
+
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+}
+#navbar ul li a:hover{
+    color: white;
+    background-color: black;
+    
+    
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+   
+}
+#home::before{
+    background:url(lib.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: "";
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home h1{
+    color: rgb(18, 249, 34);
+    text-align: center;
+    
+}
+#home p{
+    color: rgb(18, 249, 34);
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+/* Utility classes */
+
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+}
+.kk{
+    display: inline-block;
+    padding: 60px 20px;
+    margin: 20px 20px;
+    
+    
+}
+
+.movies{
+    display: inline-block;
+    border-radius: 4px;
+    border: 2px solid black;
+    margin: 20px 20px;
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+
+}
+.images img{
+    height: 250px;
+    width: 175px;
+}
+.btn button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.fo h2{
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.fo{
+    padding: 20px 20px;
+    margin: 20px 20px;
+}
+.fo h2:hover{
+    background-color: white;
+    color: black;
+}
+footer img{
+    width: 10%;
+    height: 15%;
+    display: inline-block;
+    justify-content:center;
+    padding: 1px 16px;
+    margin: 21px 21px;
+
+}
+footer{
+    padding: 0px 174px;
+    margin: 15px 286px;
+
+}
+footer h4{
+    
+    color: black;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+.footer img a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
